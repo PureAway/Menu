@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <com.zcy.circlemenu.CircleMenuView
+            android:id="@+id/circleMenuView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:arrow_bottom="@drawable/arrow_bottom"
+            app:arrow_left="@drawable/arrow_left"
+            app:arrow_right="@drawable/arrow_right"
+            app:arrow_top="@drawable/arrow_top"
+            app:color_normal="#ffffff"
+            app:color_pressed="#d0d0d0"
+            app:text="OK"
+            app:textColor="#000000"
+            app:textSize="12sp"
+            app:width_stroke="2">
+
+        </com.zcy.circlemenu.CircleMenuView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <com.zcy.circlemenu.CircleMenuView
+            android:id="@+id/circleMenuView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:arrow_bottom="@drawable/arrow_bottom"
+            app:arrow_left="@drawable/arrow_left"
+            app:arrow_right="@drawable/arrow_right"
+            app:arrow_top="@drawable/arrow_top"
+            app:color_normal="#ffffff"
+            app:color_pressed="#d0d0d0"
+            app:text="OK"
+            app:textColor="#000000"
+            app:textSize="18sp"
+            app:width_stroke="4">
+
+        </com.zcy.circlemenu.CircleMenuView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <com.zcy.circlemenu.CircleMenuView
+            android:id="@+id/circleMenuView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:arrow_bottom="@drawable/arrow_bottom"
+            app:arrow_left="@drawable/arrow_left"
+            app:arrow_right="@drawable/arrow_right"
+            app:arrow_top="@drawable/arrow_top"
+            app:color_normal="#ffffff"
+            app:color_pressed="#d0d0d0"
+            app:text="OK"
+            app:textColor="#000000"
+            app:textSize="22sp"
+            app:width_stroke="6">
+
+        </com.zcy.circlemenu.CircleMenuView>
+
+    </RelativeLayout>
+
+</LinearLayout>

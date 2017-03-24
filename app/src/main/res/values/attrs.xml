@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--未点击颜色-->
+    <attr name="color_normal" format="color" />
+    <!--点击颜色-->
+    <attr name="color_pressed" format="color" />
+    <!--圆弧线宽-->
+    <attr name="width_stroke" format="integer" />
+    <!--中间菜单文字-->
+    <attr name="text" format="string" />
+    <!--中间菜单文字大小-->
+    <attr name="textSize" format="dimension" />
+    <!--中间菜单文字颜色-->
+    <attr name="textColor" format="color" />
+    <!--左菜单方向标-->
+    <attr name="arrow_left" format="reference" />
+    <!--上菜单方向标-->
+    <attr name="arrow_top" format="reference" />
+    <!--右菜单方向标-->
+    <attr name="arrow_right" format="reference" />
+    <!--下菜单方向标-->
+    <attr name="arrow_bottom" format="reference" />
+    <declare-styleable name="MenuView">
+        <attr name="color_normal" />
+        <attr name="color_pressed" />
+        <attr name="width_stroke" />
+    </declare-styleable>
+    <declare-styleable name="CenterMenuView">
+        <attr name="color_normal" />
+        <attr name="color_pressed" />
+        <attr name="text" />
+        <attr name="textSize" />
+        <attr name="textColor" />
+        <attr name="width_stroke" />
+    </declare-styleable>
+    <declare-styleable name="CircleMenuView">
+        <attr name="arrow_left" />
+        <attr name="arrow_top" />
+        <attr name="color_normal" />
+        <attr name="color_pressed" />
+        <attr name="width_stroke" />
+        <attr name="arrow_right" />
+        <attr name="arrow_bottom" />
+        <attr name="text" />
+        <attr name="textSize" />
+        <attr name="textColor" />
+    </declare-styleable>
+</resources>
